@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.form-wrapper {
+  display: flex;
+  text-align: center;
+}
+
+form {
+  margin: 20px auto 0;
+  background-color: silver;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #333;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+form label {
+  font-weight: 500;
+  color: rgb(20, 20, 20);
+}
+
+form input {
+  margin-left: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+  color: #fff;
+  margin: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(47, 206, 47);
+  box-shadow: 0 1px 3px #333;
+}
+
+.btn-close {
+  position: absolute;
+  transform: translate(510px, -220px);
+  background-color: rgb(255, 86, 86);
+}

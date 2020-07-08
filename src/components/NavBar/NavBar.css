@@ -1,0 +1,50 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: cornflowerblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 1px 3px #333;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.navbar a {
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .4s;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: silver;
+}
+.navbar div {
+    color: #333;
+    text-align: end;
+}
+.search {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+.search input {
+    margin: 0;
+}
+.search button {
+    margin: 5px;
+    padding: 2px;
+}
